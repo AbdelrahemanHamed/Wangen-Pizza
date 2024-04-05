@@ -1,0 +1,13 @@
+.container iframe{
+    width: 1749px;
+    height: 347px;
+    border: none;
+
+}
+.dark-mode iframe{
+    width: 1749px;
+    height: 347px;
+    border: none;
+    filter: invert(100%);
+ 
+}

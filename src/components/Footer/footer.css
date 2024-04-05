@@ -1,0 +1,124 @@
+footer{
+    width: 100%;
+    height: 100vh;
+    background: rgb(84, 84, 84);
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 700;
+    background: rgb(84, 84, 84);
+    padding-bottom: 25px;
+
+}
+.footer{
+    width: 100%;
+padding-top: 0px;
+background: rgb(84, 84, 84);
+display: flex;
+padding: 50px 50px;
+gap: 150px;
+}
+.footer img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.footer .line{
+    position: relative;
+    left: -50px;
+margin-bottom: 50px;
+    width: 198px;
+    height: 10px;
+    
+    background-color: #ff8c42;
+    transition: 0.5s;
+}
+.footer h3{
+    margin: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff8c42;
+    font-family: Quicksand;
+    text-transform: capitalize;
+}
+.footer p{
+    font-size: 16px;
+    color: #eee;
+    width:  301px;
+    text-align: start;
+    font-weight: 400;
+    font-family: Quicksand;
+}
+.footer ul{
+    position: relative;
+    left: 40%;
+    top: -140px;
+}
+.footer ul li{
+    /* margin-top: 25px; */
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+cursor: pointer;
+}
+.footer ul li img{
+    width: 100px;
+    height: 100px;
+}
+.links{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Quicksand;
+}
+
+
+.links .time label {
+    font-size: 20px;
+}
+.links .time p {
+    font-size: 20px;
+
+}
+.time span{
+    color: #ff8c42;
+    font-size: 20px;
+}
+.time span.inner-time{
+    color: #fff;
+    margin-left: 20px;
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.social .image-icons img{
+width: 32px;
+height: 32px;
+margin-right: 15px;  
+}
+.info a
+{
+    margin-right: 40px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Quicksand;
+
+}
+@media screen and (max-width: 768px) {
+    .footer img{
+        width: 110px;
+        height: 110px;
+    }
+    .social img{
+        width:25px;
+        height: 25px;
+    }
+}
